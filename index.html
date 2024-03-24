@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <title>MireX</title>
+
+</head>
+<body>
+<div class="info stats">
+    <label id="scoreboard">Acertou: <output id="scoreOut"></output> </label>
+    <label id="events">Aparições: <output id="eventsOut"></output> </label>
+</div>
+<canvas id="my-canvas" width="600" height="400"></canvas>
+<div class="info speedSet">
+    <label for="speedSet">Velocidade: <output id="speedSetOut"></output> segundos.</label>
+    <input id="speedSet" type="range" min="100" max="1000" step="1" value="1000">
+</div>
+<script src="main.js"></script>
+</body>
+</html>

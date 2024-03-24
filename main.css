@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    background-color: gray;
+    justify-content: center;
+    align-content: center;
+}
+
+canvas {
+    background-color: white;
+}
+
+.info {
+    background-color: white;
+    width: 600px;
+    padding: 10px 10px;
+}
+
+.stats {
+    border-bottom: 1px solid black;
+}
+
+#events {
+    margin-left: 20px;
+}
+
+.speedSet {
+    border-top: 1px solid black;
+}
+
+#speedSet {
+    width: 580px;
+}
